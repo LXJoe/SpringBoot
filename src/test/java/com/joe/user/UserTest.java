@@ -34,7 +34,7 @@ public class UserTest extends BaseTest {
 
 	@Test
 	public void testQueryMap(){
-		List<Map> maps = this.iUserRepos.queryForMap();
+		List<Object> maps = this.iUserRepos.queryForMap();
 //		Object obj = this.iUserRepos.queryForMap();
 		System.out.println("pause");
 	}
