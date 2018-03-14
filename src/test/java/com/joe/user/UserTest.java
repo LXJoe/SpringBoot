@@ -36,6 +36,6 @@ public class UserTest extends BaseTest {
 	public void testQueryMap(){
 		List<Object> maps = this.iUserRepos.queryForMap();
 //		Object obj = this.iUserRepos.queryForMap();
-		System.out.println("again");
+		System.out.println("again1");
 	}
 }
